@@ -110,6 +110,14 @@ border-radius: 50%;
 ul li span:hover{
 background: #edeef0;
 }
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+    font-size: 25px;
+    color:#fff;
+}
 
 /* Responsive Card */
 

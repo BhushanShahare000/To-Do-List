@@ -10,12 +10,8 @@
     min-height: 100vh;
     background:linear-gradient(135deg,#153677,#4e085f);
     padding:10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}   
 
-
+}
 .todo-app{
     width:100%;
     max-width:540;
@@ -23,7 +19,6 @@
     margin:100px auto 20px;
     padding:40px 30px 70px;
     border-radius:10px;
-   
 
 
 }
@@ -47,11 +42,12 @@
     border-radius: 30px;
     padding-left:20px;
     margin-bottom:25px;
+    
 
 }
 
 input{
-   
+   flex:1;
     border:none;
     outline:none;
     background: transparent;
@@ -115,11 +111,21 @@ ul li span:hover{
 background: #edeef0;
 }
 
+/* Responsive Card */
 
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:430px) {
    
-    
+    .row{
+        justify-content: center;
+        padding-left:10px;
+        }
+
+    .todo-app{
+        
+        background: #fff;
+        margin:0px;
+        padding:20px;
+      }
   
    
 }
